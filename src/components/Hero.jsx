@@ -5,8 +5,8 @@ const Hero = () => {
   return (
     <>
       <div className='text-white text-center mt-12 max-md:hidden'>
-        <div className='p-[5px] w-[300px] rounded-full bg-gradient-to-r from-purple-800 to-pink-600 container  mx-auto'>
-            <img src={img} alt="img" className='w-[300px] rounded-[50%] shadow-xl'/>
+        <div className='p-[5px] w-[700px] rounded-full bg-gradient-to-r from-purple-800 to-pink-600 container  mx-auto'>
+            <img src={img} alt="img" className='w-[700px] rounded-[50%] shadow-xl'/>
         </div>
         <div className='leading-tight tracking-wider'>
             <h1 className='text-7xl font-bold leading-tight tracking-wider'><span className=' font-bold bg-gradient-to-r from-purple-800 to-pink-600 bg-clip-text text-transparent'>I'm Zarifjon Khamdamov,</span>frontend <br /> devoloper based in Uzbekistan.</h1>
