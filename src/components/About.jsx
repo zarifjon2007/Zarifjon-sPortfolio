@@ -6,11 +6,11 @@ import MobileAbout from './MobileAbout'
 const About = () => {
     return (
         <>
-            <div className="flex flex-col text-white mt-40 container mx-auto max-md:hidden">
+            <div id='about' className="flex flex-col text-white mt-40 container mx-auto max-md:hidden">
                 <h1 className="text-6xl font-semibold text-center">About me</h1>
 
                 <div className='flex gap-10 mt-15   '>
-                    <img src={img} alt="img" className="w-120 h-[100] mt-8 rounded-xl " />
+                    <img src={img} alt="img" className="w-[500px] mt-8 rounded-xl " />
 
                     <div className="  mt-8 text-2xl">
                         <div className="flex flex-col flex-1 gap-10">
@@ -35,15 +35,15 @@ const About = () => {
                 <div className="grid grid-cols-3 gap-4 text-center mt-25">
                     <div className='hover:scale-105 transition duration-300 cursor-pointer '>
                         <h1 className='font-bold text-5xl bg-gradient-to-r from-purple-800 to-pink-600 bg-clip-text text-transparent'>1+</h1>
-                        <p className='font-semibold mt-3'>YEARS OF EXPERIENCE</p>
+                        <p className='font-semibold mt-3 text-xl'>YEARS OF EXPERIENCE</p>
                     </div>
                     <div className='boder border-l-1 border-r-1 hover:scale-105 transition duration-300 cursor-pointer '>
                         <h1 className='font-bold text-5xl bg-gradient-to-r from-purple-800 to-pink-600 bg-clip-text text-transparent'>10+</h1>
-                        <p className='font-semibold mt-3'>PROJECTS COMPLETED</p>
+                        <p className='font-semibold mt-3 text-xl'>PROJECTS COMPLETED</p>
                     </div>
                     <div className='hover:scale-105 transition duration-300 cursor-pointer'>
                         <h1 className='font-bold text-5xl bg-gradient-to-r from-purple-800 to-pink-600 bg-clip-text text-transparent'>5+</h1>
-                        <p className='font-semibold mt-3'>HAPPY CLIENTS</p>
+                        <p className='font-semibold mt-3 text-xl'>HAPPY CLIENTS</p>
                     </div>
                 </div>
             </div>

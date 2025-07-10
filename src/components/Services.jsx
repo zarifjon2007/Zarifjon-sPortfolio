@@ -4,7 +4,7 @@ import MobileServices from './MobileServices'
 const Services = () => {
     return (
         <>
-            <div className='relative container mx-auto text-white mt-25 max-md:hidden'>
+            <div id='services' className='relative container mx-auto text-white mt-25 max-md:hidden'>
                 <div className="p-10 ">
                     <h1 className="font-bold text-center text-6xl p-5">My Services</h1>
                     <div className="relative  group w-full  mx-auto h-[300px] overflow-hidden rounded-xl border border-2 border-purple-600 mt-20 cursor-pointer">
