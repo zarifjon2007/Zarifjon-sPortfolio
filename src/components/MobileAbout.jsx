@@ -6,35 +6,35 @@ const MobileAbout = () => {
   return (
     <>
     <div id='mabout' className="flex flex-col text-white mt-15 container mx-auto ">
-  <h1 className="text-3xl font-semibold text-center  boder border-l-2 border-r-2  border-purple-500 w-[95%] mx-auto">About me</h1>
+  <h1 className="text-3xl font-semibold text-center  boder border-l-2 border-r-2  border-purple-500 w-[95%] mx-auto"data-aos="fade-up">About me</h1>
 
   <div className="flex flex-col items-center mt-20 gap-10">
     
-    <img src={img} alt="img" className="w-93 rounded-xl" />
+    <img src={img} alt="img" className="w-93 rounded-xl" data-aos="zoom-in" />
 
     <div className="text-xl w-full flex text-center">
       <div className="flex flex-col gap-5 max-w-4xl p-4">
-        <p>
+        <p data-aos="fade-up">
           I am an experienced Frontend Developer with over a decade of professional expertise in the field. Throughout my career, I have had the privilege of collaborating with prestigious organizations, contributing to their success and growth.
         </p>
-        <p>
+        <p data-aos="fade-up">
           My passion for frontend development is not only reflected in my extensive experience but also in the enthusiasm and dedication I bring to each project.
         </p>
 
         <div className="space-y-5 mt-7 text-start text-2xl w-[95%]">
-          <div className="flex items-center gap-6 hover:scale-105 transition duration-300 ">
+          <div className="flex items-center gap-6 hover:scale-105 transition duration-300 "data-aos="fade-up">
             <p className="w-[150px]">HTML & CSS</p>
             <div className="w-[55%] h-[5px] bg-gradient-to-r from-purple-800 to-pink-600 rounded-md"></div>
           </div>
-          <div className="flex items-center gap-4 hover:scale-105 transition duration-300 ">
-            <p className="w-[150px]">Tailwind CSS</p>
+          <div className="flex items-center gap-4 hover:scale-105 transition duration-300 "data-aos="fade-up">
+            <p className="w-[160px]">Tailwind CSS</p>
             <div className="w-[60%] h-[5px] bg-gradient-to-r from-purple-800 to-pink-600 rounded-md"></div>
           </div>
-          <div className="flex items-center gap-4 hover:scale-105 transition duration-300 ">
+          <div className="flex items-center gap-4 hover:scale-105 transition duration-300 "data-aos="fade-up">
             <p className="w-[150px]">JavaScript</p>
             <div className="w-[70%] h-[5px] bg-gradient-to-r from-purple-800 to-pink-600 rounded-md"></div>
           </div>
-          <div className="flex items-center gap-4 hover:scale-105 transition duration-300 ">
+          <div className="flex items-center gap-4 hover:scale-105 transition duration-300 "data-aos="fade-up">
             <p className="w-[150px]">React JS</p>
             <div className="w-[65%] h-[5px] bg-gradient-to-r from-purple-800 to-pink-600 rounded-md"></div>
           </div>
@@ -44,15 +44,15 @@ const MobileAbout = () => {
   </div>
 
   <div className="flex flex-col gap-12 text-center mt-18 w-[95%] container mx-auto ">
-    <div className="border border-2 border-purple-600 container mx-auto p-14 w-[100%] rounded-xl active:bg-gray-800 ">
+    <div className="border border-2 border-purple-600 container mx-auto p-14 w-[100%] rounded-xl active:bg-gray-800 "data-aos="fade-up">
       <h1 className="font-bold text-7xl bg-gradient-to-r from-purple-800 to-pink-600 bg-clip-text text-transparent">1+</h1>
       <p className="font-semibold mt-3 text-xl">YEARS OF EXPERIENCE</p>
     </div>
-    <div className="border border-2 border-purple-600 container mx-auto p-14 w-[100%] rounded-xl active:bg-gray-800">
+    <div className="border border-2 border-purple-600 container mx-auto p-14 w-[100%] rounded-xl active:bg-gray-800"data-aos="fade-up">
       <h1 className="font-bold text-7xl bg-gradient-to-r from-purple-800 to-pink-600 bg-clip-text text-transparent">10+</h1>
       <p className="font-semibold mt-3 text-xl">PROJECTS COMPLETED</p>
     </div>
-    <div className="border border-2 border-purple-600 container mx-auto p-14 w-[100%] rounded-xl active:bg-gray-800">
+    <div className="border border-2 border-purple-600 container mx-auto p-14 w-[100%] rounded-xl active:bg-gray-800"data-aos="fade-up">
       <h1 className="font-bold text-7xl bg-gradient-to-r from-purple-800 to-pink-600 bg-clip-text text-transparent">5+</h1>
       <p className="font-semibold mt-3 text-xl">HAPPY CLIENTS</p>
     </div>

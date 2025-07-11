@@ -6,13 +6,13 @@ import MobileAbout from './MobileAbout'
 const About = () => {
     return (
         <>
-            <div id='about' className="flex flex-col text-white mt-40 container mx-auto max-md:hidden">
-                <h1 className="text-6xl font-semibold text-center">About me</h1>
+            <div id='about' className="flex flex-col text-white mt-40 container mx-auto max-md:hidden" data-aos="fade-up" >
+                <h1 className="text-6xl font-semibold text-center" data-aos="fade-up">About me</h1>
 
                 <div className='flex gap-10 mt-15   '>
-                    <img src={img} alt="img" className="w-[500px] mt-8 rounded-xl " />
+                    <img src={img} alt="img" className="w-[500px] mt-8 rounded-xl " data-aos="fade-right"/>
 
-                    <div className="  mt-8 text-2xl">
+                    <div className="  mt-8 text-2xl" data-aos="fade-up">
                         <div className="flex flex-col flex-1 gap-10">
                             <p>
                                 I am an experienced Frontend Developer with over a decade of professional expertise in the field.  Throughout my career, I have had the privilege of collaborating with prestigious organizations, contributing to their success and growth.
@@ -32,7 +32,7 @@ const About = () => {
                     </div>
                 </div>
 
-                <div className="grid grid-cols-3 gap-4 text-center mt-25">
+                <div className="grid grid-cols-3 gap-4 text-center mt-25"data-aos="fade-left">
                     <div className='hover:scale-105 transition duration-300 cursor-pointer '>
                         <h1 className='font-bold text-5xl bg-gradient-to-r from-purple-800 to-pink-600 bg-clip-text text-transparent'>1+</h1>
                         <p className='font-semibold mt-3 text-xl'>YEARS OF EXPERIENCE</p>

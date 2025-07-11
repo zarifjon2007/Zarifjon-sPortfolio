@@ -6,8 +6,8 @@ const Services = () => {
         <>
             <div id='services' className='relative container mx-auto text-white mt-25 max-md:hidden'>
                 <div className="p-10 ">
-                    <h1 className="font-bold text-center text-6xl p-5">My Services</h1>
-                    <div className="relative  group w-full  mx-auto h-[300px] overflow-hidden rounded-xl border border-2 border-purple-600 mt-20 cursor-pointer">
+                    <h1 className="font-bold text-center text-6xl p-5"data-aos="fade-up">My Services</h1>
+                    <div data-aos="fade-left" className="relative  group w-full  mx-auto h-[300px] overflow-hidden rounded-xl border border-2 border-purple-600 mt-20 cursor-pointer">
                         <div className="absolute inset-0 bg-gradient-to-r from-purple-600 to-pink-600 origin-bottom scale-y-0 group-hover:scale-y-100 transition-transform duration-700 ease-in-out z-0"></div>
                         <div className="relative z-10 p-10 text-white">
                             <h1 className="text-center text-4xl font-semibold pb-5">🌐 Web Development</h1>
@@ -15,7 +15,7 @@ const Services = () => {
                               Web development is the process of creating websites and web applications. It has two main parts: frontend and backend. Frontend is what users see, like buttons, text, and layout. Backend is what works behind the scenes, like servers and databases. Web developers use tools like HTML, CSS, JavaScript, React, and Node.js. The goal of web development is to build fast, responsive, and user-friendly websites that work well on all devices.                            </p>
                         </div>
                     </div>
-                     <div className="relative group w-full  mx-auto h-[300px] overflow-hidden rounded-xl border border-2 border-purple-600 mt-15 cursor-pointer">
+                     <div data-aos="fade-left" className="relative group w-full  mx-auto h-[300px] overflow-hidden rounded-xl border border-2 border-purple-600 mt-15 cursor-pointer">
                         <div className="absolute inset-0 bg-gradient-to-r from-purple-600 to-pink-600 origin-bottom scale-y-0 group-hover:scale-y-100 transition-transform duration-700 ease-in-out z-0"></div>
                         <div className="relative z-10 p-10 text-white">
                             <h1 className="text-center text-4xl font-semibold pb-5">🌐 Frontend Development</h1>

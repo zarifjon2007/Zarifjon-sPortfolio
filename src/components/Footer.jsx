@@ -5,7 +5,7 @@ import MobileFooter from './MobileFooter';
 const Footer = () => {
     return (
     <>
-        <div className='flex text-white mt-30 justify-between container mx-auto w-[70%] max-md:hidden'>
+        <div className='flex text-white mt-30 justify-between container mx-auto w-[70%] max-md:hidden'data-aos="fade-up">
             <div>
                 <h1 className='text-4xl font-bold bg-gradient-to-r from-purple-800 to-pink-600 bg-clip-text text-transparent'>HAMDAMOV</h1>
                 <p className='mt-2 text-xl'>I am frontend devoloper from Uzbekistan <br /> with 1 years of experience in IT.You <br /> can learn
