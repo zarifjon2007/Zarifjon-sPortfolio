@@ -10,7 +10,7 @@ const About = () => {
                 <h1 className="text-6xl font-semibold text-center" data-aos="fade-up">About me</h1>
 
                 <div className='flex gap-10 mt-15   '>
-                    <img src={img} alt="img" className="w-[500px] mt-8 rounded-xl " data-aos="fade-right"/>
+                    <img src={img} alt="img" className="w-[530px] mt-8 rounded-xl " data-aos="fade-right"/>
 
                     <div className="  mt-8 text-2xl" data-aos="fade-up">
                         <div className="flex flex-col flex-1 gap-10">
