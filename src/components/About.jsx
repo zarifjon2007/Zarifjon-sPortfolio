@@ -15,10 +15,10 @@ const About = () => {
                     <div className="  mt-8 text-2xl" data-aos="fade-up">
                         <div className="flex flex-col flex-1 gap-10">
                             <p>
-                                I am an experienced Frontend Developer with over a decade of professional expertise in the field.  Throughout my career, I have had the privilege of collaborating with prestigious organizations, contributing to their success and growth.
+                                I am a passionate and dedicated Frontend Developer currently building my skills and experience in modern web development. I enjoy creating responsive, user-friendly websites using technologies like HTML, CSS, Tailwind CSS, and JavaScript.
                             </p>
                             <p>
-                                My passion for frontend development is not only reflected in my extensive experience but also in the enthusiasm and dedication I bring to each project.
+                               I'm constantly learning and improving through hands-on projects, and I’m excited to grow by working on real-world challenges. My goal is to deliver clean, efficient, and visually appealing web interfaces that offer great user experiences.
                             </p>
                          <div className="flex-1 space-y-2 w-[1000px] mt-15 ">
                             <div className='flex whitespace-nowrap items-center gap-15  hover:scale-105 transition duration-300 cursor-pointer '><p >HTML & CSS</p><div className='flex w-[55%] h-[5px] bg-gradient-to-r from-purple-800 to-pink-600 rounded-md'></div></div>

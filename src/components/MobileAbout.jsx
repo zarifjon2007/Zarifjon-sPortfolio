@@ -15,10 +15,10 @@ const MobileAbout = () => {
     <div className="text-xl w-full flex text-center">
       <div className="flex flex-col gap-5 max-w-4xl p-4">
         <p data-aos="fade-up">
-          I am an experienced Frontend Developer with over a decade of professional expertise in the field. Throughout my career, I have had the privilege of collaborating with prestigious organizations, contributing to their success and growth.
+          I am a passionate and dedicated Frontend Developer currently building my skills and experience in modern web development. I enjoy creating responsive, user-friendly websites using technologies like HTML, CSS, Tailwind CSS, and JavaScript.
         </p>
         <p data-aos="fade-up">
-          My passion for frontend development is not only reflected in my extensive experience but also in the enthusiasm and dedication I bring to each project.
+          I'm constantly learning and improving through hands-on projects, and I’m excited to grow by working on real-world challenges. My goal is to deliver clean, efficient, and visually appealing web interfaces that offer great user experiences.
         </p>
 
         <div className="space-y-5 mt-7 text-start text-2xl w-[95%]">
