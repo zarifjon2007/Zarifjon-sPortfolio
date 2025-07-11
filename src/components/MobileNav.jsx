@@ -19,7 +19,7 @@ const MobileNav = () => {
              py-1 rounded-[40px] font-outfit outline-none  active:scale-95 transition duration-300  '><AnchorLink className='anchor-link' offset={50} href='#mcontact'><p onClick={()=> setMenu("mcontact")}>Connect with me</p></AnchorLink></button>
             <CiMenuBurger className='text-purple-500 text-4xl  font-bold active:text-purple-900' onClick={toggleMenu} />
             {isOpen && (
-                <div className='flex flex-col gap-10  absolute top-0 fixed w-full h-screen bg-black items-center py-8 text-purple-700 text-3xl font-bold  '> 
+                <div className='flex flex-col gap-10  absolute top-0 fixed w-full h-screen bg-black items-center py-8 text-purple-700 text-3xl font-bold z-[9999] '> 
                     <div>
                         <CgCloseR className='text-3xl ml-70 active:text-purple-800' onClick={toggleMenu} />
                     </div>
